@@ -245,6 +245,10 @@ After copying `prompt.md` (for Amp) or `CLAUDE.md` (for Claude Code) to your pro
 
 Ralph archives previous runs when you start a new feature (different `branchName`). The archive folder is `archive/YYYY-MM-DD-<branch>`. `ralph.sh` uses the last branch name, while `ralph.js` uses the current branch name.
 
+## Acknowledgments
+
+- CLI packaging (`ralph.js`, global `npm install -g`, `--tool-args`, `--prompt-file`) contributed by [@alexx-ftw](https://github.com/alexx-ftw) ([`ralph/cli-packaging`](https://github.com/alexx-ftw/ralph/tree/ralph/cli-packaging))
+
 ## References
 
 - [Geoffrey Huntley's Ralph article](https://ghuntley.com/ralph/)
